@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1366px;
+    height: 568px;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    margin: 0 auto;    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.a,.b,.c,.f, .path-img{
+    position: absolute;
+}
+
+.a{
+    left: 83%;
+    top: 55.5%;
+    right: 8%;
+    bottom: 4.5%;
+}
+
+.b{ 
+    left: 57.5%;
+    top: 37.4%;
+    right: 27.3%;
+    bottom: 27.5%;
+}
+
+.c{
+    top: 52.5%;
+    bottom: 10%;
+    left: 33%;
+    right: 62.8%;
+}
+
+.f{
+    top: 14%;
+    left: 42.3%;
+    bottom: 52.5%;
+    right: 54.5%;
+}
+
+.path-img{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.hidden{
+    display: none;
+}
